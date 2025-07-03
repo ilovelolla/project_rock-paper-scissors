@@ -1,10 +1,11 @@
+let humanScore = 0
+let computerScore = 0
 
 function getComputerchoice() {
     const choices = ['rock', 'paper', 'scissors'];
     const randomChoice = Math.floor(Math.random() * choices.length);
     return choices[randomChoice];
 }
-
 
 function getHumanchoice() {
     let pickOne = prompt("Please enter your chosen choice: Rock, Paper, or Scissors ");
@@ -13,8 +14,6 @@ function getHumanchoice() {
 }
 console.log(getHumanchoice());
 
-let humanScore = 0
-let computerScore = 0
 
 function playRound(humanChoice, computerChoice) {
 
@@ -43,6 +42,8 @@ function endGame () {
     else {
         console.log("Its a tie! You both win.")
     }
+    
+    console.log(`The Final Score:\nYour Score: ${humanScore}\nComputer Score:${computerScore}`)
 }
 
 function playGame() {
@@ -55,4 +56,5 @@ function playGame() {
         endGame();
     }
 }
+
 playGame();
