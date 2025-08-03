@@ -3,10 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
-<body>
-    <script src="main.js"></script>
 
+<body>
+<h1 class="title"> ROCK PAPER SCISSORS</h1>
+
+<div class="main">
+
+ <div class="one">
+    <div id="txt">
+        Pick your weapon! <br>The first to reach 5 points claims victory</div>
+ </div>
+
+<div class="two">
+        <div id="computerScore">Computer: 0</div>
+        <div id="humanScore">Player: 0</div>
+</div>
+
+<div id="result"></div>
+
+ <div class="three">
+    <button id ="rockBtn"><div class="sign">✊</div></button>
+    <button id ="paperBtn"><div class="sign">✋</div></button>
+    <button id ="scissorsBtn"><div class="sign">✌️</div></button>
+</div>
+<div id="playAgain">Play Again</div>
+
+</div>
+    <script src="main.js"></script>
 </body>
 </html>

@@ -1,0 +1,67 @@
+body {
+    margin: 0px;
+    min-height: 100vh;
+    font-family:  "Roboto", sans-serif;
+    background-color: 	#161616;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.title {
+    font-family: "Press Start 2P", cursive;
+    color: #eeba2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #262626;
+    padding: 40px;
+    margin: 0;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #eee;
+    text-align: center;
+}
+#txt {
+    font-size: 32px;
+    display: flex;
+    margin-top: 12px;
+    line-height: 48px;
+    font-weight: bold;
+}
+.one {
+    margin-bottom: 24px;
+}
+.two {
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#rockBtn, #paperBtn, #scissorsBtn {
+    font-size: 35px;
+    padding: 30px 24px;
+    background-color: #262626;
+
+}
+.three {
+    display: flex;
+    gap: 48px;
+    margin-bottom: 48px;
+}
+#result {
+    font-size: 20px;
+    margin-bottom: 36px;
+}
+
+#playAgain {
+    margin-bottom: 24px;
+    border: 2px solid white;
+    padding: 16px;
+}
